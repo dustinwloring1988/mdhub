@@ -1,79 +1,94 @@
-# Welcome to your Lovable project
-
 [![Node.js Version](https://img.shields.io/node/v/vite)](https://nodejs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-## Project info
+<img width="1207" height="544" alt="cover" src="https://github.com/user-attachments/assets/ec80e1e9-c5e5-4c97-aa1e-776841f873f9" />
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+# MD Hub — Agent Skill Registry
 
-## How can I edit this code?
+MD Hub is a web platform for uploading, versioning, and distributing skills that make AI agents smarter. It serves as a community registry where developers can share and discover agent capabilities.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Browse Skills** — Explore community-built agent skills across multiple categories
+- **Search & Filter** — Find skills by name, description, tags, or category
+- **Skill Details** — View skill documentation, versions, and metadata
+- **Version History** — Track changes across skill versions
+- **Publish Skills** — Share your own agent skills with the community (requires referral)
+- **User Profiles** — View skill authors and their contributions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Categories
 
-Changes made via Lovable will be committed automatically to this repo.
+- Web Development
+- Data Science
+- DevOps
+- Security
+- AI/ML
+- Automation
+- Design
+- Infrastructure
 
-**Use your preferred IDE**
+## Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS, shadcn/ui
+- **State Management**: TanStack React Query
+- **Routing**: React Router DOM
+- **Forms**: React Hook Form, Zod
+- **Icons**: Lucide React
+- **Testing**: Vitest
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js 18+
+- npm or bun
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Install dependencies
+npm install
+# or
+bun install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Development
+
+```bash
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Build for production
+npm run build
+```
 
-**Use GitHub Codespaces**
+### Preview
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# Preview production build
+npm run preview
+```
 
-## What technologies are used for this project?
+## Project Structure
 
-This project is built with:
+```
+src/
+├── components/       # Reusable UI components
+│   └── ui/          # shadcn/ui components
+├── pages/           # Page components
+├── hooks/           # Custom React hooks
+├── lib/             # Utilities and mock data
+└── test/            # Test files
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT
